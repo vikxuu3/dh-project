@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe690c7deb2d6682cf0f13deaa60b96f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe690c7deb2d6682cf0f13deaa60b96f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe690c7deb2d6682cf0f13deaa60b96f = L.map(
+                "map_fe690c7deb2d6682cf0f13deaa60b96f",
+                {
+                    center: [55.75, 37.62],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7694e7f6eb1cb141b70a65cd92dc01f2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7694e7f6eb1cb141b70a65cd92dc01f2.addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+            var circle_marker_bd1d7a93d5e3f6e9a2ac1b743dea5814 = L.circleMarker(
+                [55.76133, 37.70593],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_ace2b16c579aee8b7a95ba073926f3fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebbd68ac08ce24623aa19d87c7de7f4f = $(`<div id="html_ebbd68ac08ce24623aa19d87c7de7f4f" style="width: 100.0%; height: 100.0%;">Лефортовская тюрьма<br>Лефортовский Вал, 5</div>`)[0];
+                popup_ace2b16c579aee8b7a95ba073926f3fa.setContent(html_ebbd68ac08ce24623aa19d87c7de7f4f);
+            
+        
+
+        circle_marker_bd1d7a93d5e3f6e9a2ac1b743dea5814.bindPopup(popup_ace2b16c579aee8b7a95ba073926f3fa)
+        ;
+
+        
+    
+    
+            var circle_marker_ba543ec1cc3a7f0fe3a25d2a3ea4d1b0 = L.circleMarker(
+                [55.784522, 37.594012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_9534576a7f4f52d5df0b665afefccc04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae37230757293e9decdf9d626b6a773b = $(`<div id="html_ae37230757293e9decdf9d626b6a773b" style="width: 100.0%; height: 100.0%;">Бутырская тюрьма<br>Новослободская улица, 45</div>`)[0];
+                popup_9534576a7f4f52d5df0b665afefccc04.setContent(html_ae37230757293e9decdf9d626b6a773b);
+            
+        
+
+        circle_marker_ba543ec1cc3a7f0fe3a25d2a3ea4d1b0.bindPopup(popup_9534576a7f4f52d5df0b665afefccc04)
+        ;
+
+        
+    
+    
+            var circle_marker_21ddadacd073ea3dae46ec11381a7425 = L.circleMarker(
+                [55.735985, 37.653866],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_907f3752f7687aad8d6d2a4a166779c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf6a8a0cd7a9e61eb0b1bd23e31e521c = $(`<div id="html_cf6a8a0cd7a9e61eb0b1bd23e31e521c" style="width: 100.0%; height: 100.0%;">Таганская тюрьма<br>улица Малые Каменщики, 16-18, снесена в 1958 г.</div>`)[0];
+                popup_907f3752f7687aad8d6d2a4a166779c1.setContent(html_cf6a8a0cd7a9e61eb0b1bd23e31e521c);
+            
+        
+
+        circle_marker_21ddadacd073ea3dae46ec11381a7425.bindPopup(popup_907f3752f7687aad8d6d2a4a166779c1)
+        ;
+
+        
+    
+    
+            var circle_marker_ae35a84a62b0baeac40448a09344bd2f = L.circleMarker(
+                [55.78068, 37.604627],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_7a5f7321a730555b57a9194bf281a9cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea9c5684f1801b93871296dfdfbf4491 = $(`<div id="html_ea9c5684f1801b93871296dfdfbf4491" style="width: 100.0%; height: 100.0%;">Сущевский арестный дом<br>Селезневская улица, 11</div>`)[0];
+                popup_7a5f7321a730555b57a9194bf281a9cd.setContent(html_ea9c5684f1801b93871296dfdfbf4491);
+            
+        
+
+        circle_marker_ae35a84a62b0baeac40448a09344bd2f.bindPopup(popup_7a5f7321a730555b57a9194bf281a9cd)
+        ;
+
+        
+    
+    
+            var circle_marker_edae3453e8e6d2bdef460c50db54a61d = L.circleMarker(
+                [55.75356, 37.57689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_01846b3f9e500ca9180887fcc81f79f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59cc46ced2259bcda25ff4762a34d244 = $(`<div id="html_59cc46ced2259bcda25ff4762a34d244" style="width: 100.0%; height: 100.0%;">Новинская женская тюрьма (до 1947)<br>Новинский пер.</div>`)[0];
+                popup_01846b3f9e500ca9180887fcc81f79f2.setContent(html_59cc46ced2259bcda25ff4762a34d244);
+            
+        
+
+        circle_marker_edae3453e8e6d2bdef460c50db54a61d.bindPopup(popup_01846b3f9e500ca9180887fcc81f79f2)
+        ;
+
+        
+    
+    
+            var circle_marker_c3564e8367ba34a54fbb4c1c93037de2 = L.circleMarker(
+                [55.791893, 37.697624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_3e372515fd1c0c9ae250b026137caef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4566f89c95fbe48197ca0cfc43b81ad = $(`<div id="html_a4566f89c95fbe48197ca0cfc43b81ad" style="width: 100.0%; height: 100.0%;">Сокольническая тюрьма («Матросская тишина») или тюрьма № 14 Управления МВД по Моск<br>Матросская Тишина, 18</div>`)[0];
+                popup_3e372515fd1c0c9ae250b026137caef8.setContent(html_a4566f89c95fbe48197ca0cfc43b81ad);
+            
+        
+
+        circle_marker_c3564e8367ba34a54fbb4c1c93037de2.bindPopup(popup_3e372515fd1c0c9ae250b026137caef8)
+        ;
+
+        
+    
+    
+            var circle_marker_c1dc7fa514626b0dfe26fd525ae2d459 = L.circleMarker(
+                [55.53635, 37.66581],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_fd140936f3bdaed372a992322070fae1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58e36012a84bb30f801233441405a5fd = $(`<div id="html_58e36012a84bb30f801233441405a5fd" style="width: 100.0%; height: 100.0%;">Сухановская особорежимная тюрьма<br>Видное-2, Петровский пр-д</div>`)[0];
+                popup_fd140936f3bdaed372a992322070fae1.setContent(html_58e36012a84bb30f801233441405a5fd);
+            
+        
+
+        circle_marker_c1dc7fa514626b0dfe26fd525ae2d459.bindPopup(popup_fd140936f3bdaed372a992322070fae1)
+        ;
+
+        
+    
+    
+            var circle_marker_83cfb7c0bff5995d3bd0259feced6823 = L.circleMarker(
+                [55.765304, 37.514448],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_8d87a7a23c9392b6288ab034cd37d3bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29cdaf8eeaca727ce833b95aa0cf4db7 = $(`<div id="html_29cdaf8eeaca727ce833b95aa0cf4db7" style="width: 100.0%; height: 100.0%;">Краснопресненская пересыльная тюрьма<br>1-й Силикатный проезд, 11</div>`)[0];
+                popup_8d87a7a23c9392b6288ab034cd37d3bd.setContent(html_29cdaf8eeaca727ce833b95aa0cf4db7);
+            
+        
+
+        circle_marker_83cfb7c0bff5995d3bd0259feced6823.bindPopup(popup_8d87a7a23c9392b6288ab034cd37d3bd)
+        ;
+
+        
+    
+    
+            var circle_marker_96b34aefb96da1b115eb210dcf286312 = L.circleMarker(
+                [55.75659, 37.594229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_112a324960c9805bd89935764abb372f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae23dd2e85b4e9f2139caa4fc6f8ce49 = $(`<div id="html_ae23dd2e85b4e9f2139caa4fc6f8ce49" style="width: 100.0%; height: 100.0%;">Арбатский арестный дом/Кабинет и клиника по изучению личности преступника и преступности (1917-1924)<br>столовый переулок 7</div>`)[0];
+                popup_112a324960c9805bd89935764abb372f.setContent(html_ae23dd2e85b4e9f2139caa4fc6f8ce49);
+            
+        
+
+        circle_marker_96b34aefb96da1b115eb210dcf286312.bindPopup(popup_112a324960c9805bd89935764abb372f)
+        ;
+
+        
+    
+    
+            var circle_marker_dad48b3b2716ff47c1d9cc6eb1b56fda = L.circleMarker(
+                [55.769966, 37.665074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_f0c1519c4ae46a25079c4c4758806e25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f0b9cf96dabf359562e2f7e8fb45c5e = $(`<div id="html_5f0b9cf96dabf359562e2f7e8fb45c5e" style="width: 100.0%; height: 100.0%;">Басманнный арестный дом (1917-1924)<br>Новая Басманная 29  строение 3</div>`)[0];
+                popup_f0c1519c4ae46a25079c4c4758806e25.setContent(html_5f0b9cf96dabf359562e2f7e8fb45c5e);
+            
+        
+
+        circle_marker_dad48b3b2716ff47c1d9cc6eb1b56fda.bindPopup(popup_f0c1519c4ae46a25079c4c4758806e25)
+        ;
+
+        
+    
+    
+            var circle_marker_d256edd7fa3e7701fbb427933a830304 = L.circleMarker(
+                [55.76911, 37.684617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_a68622592f190af320fedd745c7e65ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_418d2e66201a60b7e490cef0af55c668 = $(`<div id="html_418d2e66201a60b7e490cef0af55c668" style="width: 100.0%; height: 100.0%;">Лефортовский арестный дом (1917-1924)<br>Кирочный пер. 13</div>`)[0];
+                popup_a68622592f190af320fedd745c7e65ce.setContent(html_418d2e66201a60b7e490cef0af55c668);
+            
+        
+
+        circle_marker_d256edd7fa3e7701fbb427933a830304.bindPopup(popup_a68622592f190af320fedd745c7e65ce)
+        ;
+
+        
+    
+    
+            var circle_marker_49912671e4d59928a26b65473f80cdb0 = L.circleMarker(
+                [55.753892, 37.645519],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_881202eafbbdcb31cc3235c8f4fedbdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e81d0a14a186e68a98d81df7fd31f374 = $(`<div id="html_e81d0a14a186e68a98d81df7fd31f374" style="width: 100.0%; height: 100.0%;">Мясницкий арестный дом<br>Уг.Хитрового и М. Трехсвятительского пер</div>`)[0];
+                popup_881202eafbbdcb31cc3235c8f4fedbdb.setContent(html_e81d0a14a186e68a98d81df7fd31f374);
+            
+        
+
+        circle_marker_49912671e4d59928a26b65473f80cdb0.bindPopup(popup_881202eafbbdcb31cc3235c8f4fedbdb)
+        ;
+
+        
+    
+    
+            var circle_marker_d097e780c0d685d031fee0356beeecc6 = L.circleMarker(
+                [55.730344, 37.615493],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_071f721875d1b6b013f1ad7592eb8631 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35eb6c8d042f96c33bf865503f9d7d3d = $(`<div id="html_35eb6c8d042f96c33bf865503f9d7d3d" style="width: 100.0%; height: 100.0%;">Якиманский арестный дом (1917-1924)<br>Житная ул.Казанский пер.</div>`)[0];
+                popup_071f721875d1b6b013f1ad7592eb8631.setContent(html_35eb6c8d042f96c33bf865503f9d7d3d);
+            
+        
+
+        circle_marker_d097e780c0d685d031fee0356beeecc6.bindPopup(popup_071f721875d1b6b013f1ad7592eb8631)
+        ;
+
+        
+    
+    
+            var circle_marker_8ac419482d69d63aebb3a561aa5ae6b7 = L.circleMarker(
+                [55.760112, 37.58207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_88f464d1df719bdcc8329d670fc1d50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b0a59813a70b1360fc62dd9c0d3c5e = $(`<div id="html_68b0a59813a70b1360fc62dd9c0d3c5e" style="width: 100.0%; height: 100.0%;">Пресненский арестный дом<br>Баррикандная дом4 строение3</div>`)[0];
+                popup_88f464d1df719bdcc8329d670fc1d50a.setContent(html_68b0a59813a70b1360fc62dd9c0d3c5e);
+            
+        
+
+        circle_marker_8ac419482d69d63aebb3a561aa5ae6b7.bindPopup(popup_88f464d1df719bdcc8329d670fc1d50a)
+        ;
+
+        
+    
+    
+            var circle_marker_d9956ea5198f947558fe548200616ab5 = L.circleMarker(
+                [55.751249, 37.631463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_4ae926e5c4557e6f6e28e53bb9bf122c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88282865fcf1f02ccc302f399149aeea = $(`<div id="html_88282865fcf1f02ccc302f399149aeea" style="width: 100.0%; height: 100.0%;">Городской арестный дом (1917-1924)<br>кривой перулок 10</div>`)[0];
+                popup_4ae926e5c4557e6f6e28e53bb9bf122c.setContent(html_88282865fcf1f02ccc302f399149aeea);
+            
+        
+
+        circle_marker_d9956ea5198f947558fe548200616ab5.bindPopup(popup_4ae926e5c4557e6f6e28e53bb9bf122c)
+        ;
+
+        
+    
+    
+            var circle_marker_caa61e9e553ce6565bd143b83566cb61 = L.circleMarker(
+                [55.76932, 37.618026],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0d6f31a45cce755ab8cdb79f86ba3ac2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb5333e1435711a7dd3a3bb3c7c13d12 = $(`<div id="html_bb5333e1435711a7dd3a3bb3c7c13d12" style="width: 100.0%; height: 100.0%;">Сретенская тюрьма<br>3-й знаменский 8</div>`)[0];
+                popup_0d6f31a45cce755ab8cdb79f86ba3ac2.setContent(html_bb5333e1435711a7dd3a3bb3c7c13d12);
+            
+        
+
+        circle_marker_caa61e9e553ce6565bd143b83566cb61.bindPopup(popup_0d6f31a45cce755ab8cdb79f86ba3ac2)
+        ;
+
+        
+    
+    
+            var circle_marker_3bcebe861a037c56aaf667098b6d3e15 = L.circleMarker(
+                [55.765645, 37.679782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_2fce4e43bf1beff5f0c3e67bc8e2e37a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e162fb4f772b16fe21fe85dfda3b8f91 = $(`<div id="html_e162fb4f772b16fe21fe85dfda3b8f91" style="width: 100.0%; height: 100.0%;">2-я Московская тюремная больница<br>ул. Баумана 10/12</div>`)[0];
+                popup_2fce4e43bf1beff5f0c3e67bc8e2e37a.setContent(html_e162fb4f772b16fe21fe85dfda3b8f91);
+            
+        
+
+        circle_marker_3bcebe861a037c56aaf667098b6d3e15.bindPopup(popup_2fce4e43bf1beff5f0c3e67bc8e2e37a)
+        ;
+
+        
+    
+    
+            var circle_marker_f4ddc9bba296ca4479214da694c3bab9 = L.circleMarker(
+                [55.764063, 37.678063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_9759edcb1fc557403c94e0369f709301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_470d17194161ffeabe1ecb5b981de375 = $(`<div id="html_470d17194161ffeabe1ecb5b981de375" style="width: 100.0%; height: 100.0%;">Туполевская шарага (ЦКБ-29) (1939-1941)<br>ул.Радио, 24</div>`)[0];
+                popup_9759edcb1fc557403c94e0369f709301.setContent(html_470d17194161ffeabe1ecb5b981de375);
+            
+        
+
+        circle_marker_f4ddc9bba296ca4479214da694c3bab9.bindPopup(popup_9759edcb1fc557403c94e0369f709301)
+        ;
+
+        
+    
+    
+            var circle_marker_a688644a0a6d94563a4d72f5dd9a3a97 = L.circleMarker(
+                [55.750186, 37.729105],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_8ddb4761d32c7eac09b7e9f6d5a1667a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9afc814d49a44abbb89ac2f277a91301 = $(`<div id="html_9afc814d49a44abbb89ac2f277a91301" style="width: 100.0%; height: 100.0%;">Завод "Компрессор" (ОТБ-8 )<br>2-я ул. Энтузиастов, д. 5</div>`)[0];
+                popup_8ddb4761d32c7eac09b7e9f6d5a1667a.setContent(html_9afc814d49a44abbb89ac2f277a91301);
+            
+        
+
+        circle_marker_a688644a0a6d94563a4d72f5dd9a3a97.bindPopup(popup_8ddb4761d32c7eac09b7e9f6d5a1667a)
+        ;
+
+        
+    
+    
+            var circle_marker_7766094efb563365bfd64b39304c846c = L.circleMarker(
+                [55.815417, 37.690994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_5f5da7f99935b5b80f604093726fc013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_290cc51267d47b588653d24c60eb664f = $(`<div id="html_290cc51267d47b588653d24c60eb664f" style="width: 100.0%; height: 100.0%;">Завод "Красный богатырь" (ОТБ-10)<br>Краснобогатырская ул., 2;</div>`)[0];
+                popup_5f5da7f99935b5b80f604093726fc013.setContent(html_290cc51267d47b588653d24c60eb664f);
+            
+        
+
+        circle_marker_7766094efb563365bfd64b39304c846c.bindPopup(popup_5f5da7f99935b5b80f604093726fc013)
+        ;
+
+        
+    
+    
+            var circle_marker_3548150f160628648217240781fda954 = L.circleMarker(
+                [55.705533, 37.648674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_2e37790bfa7c70a7cf91a672b2a8ddfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18b7f3827f4ef2011b823bdca2aa9d27 = $(`<div id="html_18b7f3827f4ef2011b823bdca2aa9d27" style="width: 100.0%; height: 100.0%;">Экспериментальная ТЭЦ ВТИ (ОТБ-11)<br>Ленинская слобода, 23</div>`)[0];
+                popup_2e37790bfa7c70a7cf91a672b2a8ddfd.setContent(html_18b7f3827f4ef2011b823bdca2aa9d27);
+            
+        
+
+        circle_marker_3548150f160628648217240781fda954.bindPopup(popup_2e37790bfa7c70a7cf91a672b2a8ddfd)
+        ;
+
+        
+    
+    
+            var circle_marker_9c3c8819b89d2c26e0b1e155051457b2 = L.circleMarker(
+                [55.748112, 37.630707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_67ac1af0ec5fc0775c77e3a437fa7eda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bc321b96d4060f9c85ee61754c3af0f = $(`<div id="html_7bc321b96d4060f9c85ee61754c3af0f" style="width: 100.0%; height: 100.0%;">Московская городская электростанция (ОТБ-12)<br>Раушская набережная, 10-12б 1936 г.</div>`)[0];
+                popup_67ac1af0ec5fc0775c77e3a437fa7eda.setContent(html_7bc321b96d4060f9c85ee61754c3af0f);
+            
+        
+
+        circle_marker_9c3c8819b89d2c26e0b1e155051457b2.bindPopup(popup_67ac1af0ec5fc0775c77e3a437fa7eda)
+        ;
+
+        
+    
+    
+            var circle_marker_f7daa39ee8a2869cb609cc6df4b85fdc = L.circleMarker(
+                [55.831071, 37.596496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_41e4f4b40b7fa202879b2623cc4c6ecd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f3c55c7a0247f3e801f45b02ca5a15f = $(`<div id="html_7f3c55c7a0247f3e801f45b02ca5a15f" style="width: 100.0%; height: 100.0%;">Марфинская шарашка<br>Ботаническая ул., 25</div>`)[0];
+                popup_41e4f4b40b7fa202879b2623cc4c6ecd.setContent(html_7f3c55c7a0247f3e801f45b02ca5a15f);
+            
+        
+
+        circle_marker_f7daa39ee8a2869cb609cc6df4b85fdc.bindPopup(popup_41e4f4b40b7fa202879b2623cc4c6ecd)
+        ;
+
+        
+    
+    
+            var circle_marker_08e67dd6b3e79a549ad7f1cf0f77052c = L.circleMarker(
+                [55.758953, 37.62436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_64449e94d039d1a2cadb9299717832bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce3e74068ce85e38cb5afda6cc60e7db = $(`<div id="html_ce3e74068ce85e38cb5afda6cc60e7db" style="width: 100.0%; height: 100.0%;">ОКБ в ЭКУ ОГПУ (Военная коллегия)<br>ул.Никольская, 23 (1931-3934)</div>`)[0];
+                popup_64449e94d039d1a2cadb9299717832bb.setContent(html_ce3e74068ce85e38cb5afda6cc60e7db);
+            
+        
+
+        circle_marker_08e67dd6b3e79a549ad7f1cf0f77052c.bindPopup(popup_64449e94d039d1a2cadb9299717832bb)
+        ;
+
+        
+    
+    
+            var circle_marker_60cd77dd26ee28283bade792d6c68a7d = L.circleMarker(
+                [55.797626, 37.532229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_7951b06ff9634d2944c2b3372b07b2a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ebd0858dfa887d957357ca80ae97dbd = $(`<div id="html_0ebd0858dfa887d957357ca80ae97dbd" style="width: 100.0%; height: 100.0%;">ЦКБ-39 ОГПУ имени В. Р. Менжинского (1930-1931)<br>Ленинградский пр-кт, 45/5, ангар №7 опытного завода №39</div>`)[0];
+                popup_7951b06ff9634d2944c2b3372b07b2a9.setContent(html_0ebd0858dfa887d957357ca80ae97dbd);
+            
+        
+
+        circle_marker_60cd77dd26ee28283bade792d6c68a7d.bindPopup(popup_7951b06ff9634d2944c2b3372b07b2a9)
+        ;
+
+        
+    
+    
+            var circle_marker_e88a3955b7bf02f99b35667dd916b4f1 = L.circleMarker(
+                [55.755225, 37.968462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_66720778e660f54123a484ed6bb1b61b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f8e5c53a60acc553afe74bde84dc134 = $(`<div id="html_5f8e5c53a60acc553afe74bde84dc134" style="width: 100.0%; height: 100.0%;">«Кучинская шарашка»<br>Железнодорожный, ул. Гидрогородок, 3а</div>`)[0];
+                popup_66720778e660f54123a484ed6bb1b61b.setContent(html_5f8e5c53a60acc553afe74bde84dc134);
+            
+        
+
+        circle_marker_e88a3955b7bf02f99b35667dd916b4f1.bindPopup(popup_66720778e660f54123a484ed6bb1b61b)
+        ;
+
+        
+    
+    
+            var circle_marker_acf0d9f2650aa70e026b1f28702a6434 = L.circleMarker(
+                [55.965594, 38.048716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_183c5a5e8b77fceac292749dd00df038 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f1890d2700659e9e26461831242d4e5 = $(`<div id="html_9f1890d2700659e9e26461831242d4e5" style="width: 100.0%; height: 100.0%;">НИИ-  160<br>НИИ-160г. Фрязино, ул. Вокзальная, 2а.</div>`)[0];
+                popup_183c5a5e8b77fceac292749dd00df038.setContent(html_9f1890d2700659e9e26461831242d4e5);
+            
+        
+
+        circle_marker_acf0d9f2650aa70e026b1f28702a6434.bindPopup(popup_183c5a5e8b77fceac292749dd00df038)
+        ;
+
+        
+    
+    
+            var circle_marker_4e9adc2b02ebc0edb4d9ee23208ee636 = L.circleMarker(
+                [55.089768, 38.802368],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_e5b0abe3d617de164a5fdc5250cc4fac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e148893aaa6801a98dd2be044ca063b8 = $(`<div id="html_e148893aaa6801a98dd2be044ca063b8" style="width: 100.0%; height: 100.0%;">Коломенский завод<br>Коломна, ул. Партизан, 42</div>`)[0];
+                popup_e5b0abe3d617de164a5fdc5250cc4fac.setContent(html_e148893aaa6801a98dd2be044ca063b8);
+            
+        
+
+        circle_marker_4e9adc2b02ebc0edb4d9ee23208ee636.bindPopup(popup_e5b0abe3d617de164a5fdc5250cc4fac)
+        ;
+
+        
+    
+    
+            var circle_marker_f085728f00e6a4ae778956b57a3470e6 = L.circleMarker(
+                [55.83922, 37.451188],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_25304737336dbe56bab93465e7dee674 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d0b6bda88e0906c76d9a0ff3f906b86 = $(`<div id="html_6d0b6bda88e0906c76d9a0ff3f906b86" style="width: 100.0%; height: 100.0%;">Тушинский машиностроительный завод (ОТБ-82)<br>Свободы, 35</div>`)[0];
+                popup_25304737336dbe56bab93465e7dee674.setContent(html_6d0b6bda88e0906c76d9a0ff3f906b86);
+            
+        
+
+        circle_marker_f085728f00e6a4ae778956b57a3470e6.bindPopup(popup_25304737336dbe56bab93465e7dee674)
+        ;
+
+        
+    
+    
+            var circle_marker_0b8a4311d2ef3b12f0a9b7f4f36d1fd0 = L.circleMarker(
+                [55.922079, 37.837908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_060d1b94a60cbca795575f8403655fa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23f075a7552eb6680fb35c8ea1b0b291 = $(`<div id="html_23f075a7552eb6680fb35c8ea1b0b291" style="width: 100.0%; height: 100.0%;">Болшевская шарашка<br>г. Королёв, пр. Королёва 3а, 3б, 3в</div>`)[0];
+                popup_060d1b94a60cbca795575f8403655fa4.setContent(html_23f075a7552eb6680fb35c8ea1b0b291);
+            
+        
+
+        circle_marker_0b8a4311d2ef3b12f0a9b7f4f36d1fd0.bindPopup(popup_060d1b94a60cbca795575f8403655fa4)
+        ;
+
+        
+    
+    
+            var circle_marker_b0914fd9d7a4533679acc8669aa1428d = L.circleMarker(
+                [55.709939, 37.653167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0bf856afef47edd9d8cdf11b87bd0938 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_897e6a55e4cd6bfa18cb9767e22b0d55 = $(`<div id="html_897e6a55e4cd6bfa18cb9767e22b0d55" style="width: 100.0%; height: 100.0%;">Завод Динамо<br>Ленинская слобода, 26</div>`)[0];
+                popup_0bf856afef47edd9d8cdf11b87bd0938.setContent(html_897e6a55e4cd6bfa18cb9767e22b0d55);
+            
+        
+
+        circle_marker_b0914fd9d7a4533679acc8669aa1428d.bindPopup(popup_0bf856afef47edd9d8cdf11b87bd0938)
+        ;
+
+        
+    
+    
+            var circle_marker_aaceca8468017d9b2f22f79494b26657 = L.circleMarker(
+                [55.675754, 37.647708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_733f8bbe9208cceb5df8b17ca4a1c10e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_041cdaf28a69c7d6ab19705e0dd39ad0 = $(`<div id="html_041cdaf28a69c7d6ab19705e0dd39ad0" style="width: 100.0%; height: 100.0%;">ОТБ НКВД в Научно-исследовательском институте № 6 (НИИ-6) середин 30-х годов<br>Нагатинская, 16а</div>`)[0];
+                popup_733f8bbe9208cceb5df8b17ca4a1c10e.setContent(html_041cdaf28a69c7d6ab19705e0dd39ad0);
+            
+        
+
+        circle_marker_aaceca8468017d9b2f22f79494b26657.bindPopup(popup_733f8bbe9208cceb5df8b17ca4a1c10e)
+        ;
+
+        
+    
+    
+            var circle_marker_96abe79db6e3df161bae3c7e5387c095 = L.circleMarker(
+                [55.784522, 37.594012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_4dbf4e3a283a5131e268d48ca2794186 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d8f13f5ba4392bd867b57b37c316ee = $(`<div id="html_34d8f13f5ba4392bd867b57b37c316ee" style="width: 100.0%; height: 100.0%;">ЦКБ-39 (декабрь 1929-1930), ОТБ-8, ОТБ-10, ОТБ-11 (БПК Рамзина), ОТБ-12,<br>Новослободская улица, 45</div>`)[0];
+                popup_4dbf4e3a283a5131e268d48ca2794186.setContent(html_34d8f13f5ba4392bd867b57b37c316ee);
+            
+        
+
+        circle_marker_96abe79db6e3df161bae3c7e5387c095.bindPopup(popup_4dbf4e3a283a5131e268d48ca2794186)
+        ;
+
+        
+    
+    
+            var circle_marker_91f0ab9aa4733a1fdace0043cbd295be = L.circleMarker(
+                [55.761175, 37.676828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_4400636e30faefc1d018334f494c5e52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6078b72f0d3caa535f9ccf7737f96e9d = $(`<div id="html_6078b72f0d3caa535f9ccf7737f96e9d" style="width: 100.0%; height: 100.0%;">Завод опытных конструкций №156 (ЦКБ-29) 1939-1941<br>наб. Туполева, 17</div>`)[0];
+                popup_4400636e30faefc1d018334f494c5e52.setContent(html_6078b72f0d3caa535f9ccf7737f96e9d);
+            
+        
+
+        circle_marker_91f0ab9aa4733a1fdace0043cbd295be.bindPopup(popup_4400636e30faefc1d018334f494c5e52)
+        ;
+
+        
+    
+    
+            var circle_marker_4c511cbadb13b07808fcf8d545bab0f7 = L.circleMarker(
+                [55.755176, 37.727226],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_4636bfa4fca3e29b7ea9687f24c90716 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f710f921d3ab5ce6fb231591831c65a1 = $(`<div id="html_f710f921d3ab5ce6fb231591831c65a1" style="width: 100.0%; height: 100.0%;">Ольгинский завод<br>Шоссе Энтузиастов, 23</div>`)[0];
+                popup_4636bfa4fca3e29b7ea9687f24c90716.setContent(html_f710f921d3ab5ce6fb231591831c65a1);
+            
+        
+
+        circle_marker_4c511cbadb13b07808fcf8d545bab0f7.bindPopup(popup_4636bfa4fca3e29b7ea9687f24c90716)
+        ;
+
+        
+    
+    
+            var circle_marker_51265a03856987a6875c659a1fb2c6a4 = L.circleMarker(
+                [55.754599, 37.639966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_6bb8747384f613fb86f3f3e24b989653 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a57eecf2a50dd109932377f048b136fd = $(`<div id="html_a57eecf2a50dd109932377f048b136fd" style="width: 100.0%; height: 100.0%;">Ивановский лагерь особого назначения (с 1919)/Концлагерь и Исправительно-трудовой дом (1921-1922)<br>Малый Ивановский переулок, 2</div>`)[0];
+                popup_6bb8747384f613fb86f3f3e24b989653.setContent(html_a57eecf2a50dd109932377f048b136fd);
+            
+        
+
+        circle_marker_51265a03856987a6875c659a1fb2c6a4.bindPopup(popup_6bb8747384f613fb86f3f3e24b989653)
+        ;
+
+        
+    
+    
+            var circle_marker_d107349e6336300f40ced5dc5786e0f8 = L.circleMarker(
+                [55.76571, 37.62445],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0340d314b8a823b410653ad5a14ad812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64e10dff8575a1a7cefdef5bded4362c = $(`<div id="html_64e10dff8575a1a7cefdef5bded4362c" style="width: 100.0%; height: 100.0%;">Рождественский концлагерь (открыт 1 июня 1920)<br>улица Рождественка, 20</div>`)[0];
+                popup_0340d314b8a823b410653ad5a14ad812.setContent(html_64e10dff8575a1a7cefdef5bded4362c);
+            
+        
+
+        circle_marker_d107349e6336300f40ced5dc5786e0f8.bindPopup(popup_0340d314b8a823b410653ad5a14ad812)
+        ;
+
+        
+    
+    
+            var circle_marker_4428a2731b8e3bb12d201fa392d7b6af = L.circleMarker(
+                [55.74901, 37.67057],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_b01e5c33774c999ebbe9af9f0c70538b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eef0b5456c03178ebb2e725e8dfb0b19 = $(`<div id="html_eef0b5456c03178ebb2e725e8dfb0b19" style="width: 100.0%; height: 100.0%;">Андрониковский (Андроньевский) концлагерь / Особый концентрационный лагерь в Спа<br>Андроньевская площадь, 10</div>`)[0];
+                popup_b01e5c33774c999ebbe9af9f0c70538b.setContent(html_eef0b5456c03178ebb2e725e8dfb0b19);
+            
+        
+
+        circle_marker_4428a2731b8e3bb12d201fa392d7b6af.bindPopup(popup_b01e5c33774c999ebbe9af9f0c70538b)
+        ;
+
+        
+    
+    
+            var circle_marker_6a8b671d003c3aa6ae78b9f2b7bc490a = L.circleMarker(
+                [55.752582, 37.628641],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_ddf8054a4961968480320405bcb19bfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c5f0cf0858d8ddaeed59f3891d2daa9 = $(`<div id="html_3c5f0cf0858d8ddaeed59f3891d2daa9" style="width: 100.0%; height: 100.0%;">Знаменский лагерь принудработ (открыт не позднее февр. 1921)<br>улица Варварка, 8</div>`)[0];
+                popup_ddf8054a4961968480320405bcb19bfd.setContent(html_3c5f0cf0858d8ddaeed59f3891d2daa9);
+            
+        
+
+        circle_marker_6a8b671d003c3aa6ae78b9f2b7bc490a.bindPopup(popup_ddf8054a4961968480320405bcb19bfd)
+        ;
+
+        
+    
+    
+            var circle_marker_1e76d9cf3e4043a7be19a1d81b8b2c7c = L.circleMarker(
+                [55.73183, 37.65659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_53a49f923173de921872262eeb9ffaca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b653dd7f720006c0a3d1b53e6ae1998 = $(`<div id="html_1b653dd7f720006c0a3d1b53e6ae1998" style="width: 100.0%; height: 100.0%;">Новоспасский концлагерь (открыт в сентябре 1918)<br>Крестьянская площадь, 10</div>`)[0];
+                popup_53a49f923173de921872262eeb9ffaca.setContent(html_1b653dd7f720006c0a3d1b53e6ae1998);
+            
+        
+
+        circle_marker_1e76d9cf3e4043a7be19a1d81b8b2c7c.bindPopup(popup_53a49f923173de921872262eeb9ffaca)
+        ;
+
+        
+    
+    
+            var circle_marker_f799906d687245809bcccab9155b7a12 = L.circleMarker(
+                [55.7387, 37.67104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0ed8391a590abd5d05bb96f8ded7ce39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae74c626357916960d080e8f85e46da2 = $(`<div id="html_ae74c626357916960d080e8f85e46da2" style="width: 100.0%; height: 100.0%;">Семеновский лагерь принудработ (не позднее 1921)<br>Таганская улица, 58</div>`)[0];
+                popup_0ed8391a590abd5d05bb96f8ded7ce39.setContent(html_ae74c626357916960d080e8f85e46da2);
+            
+        
+
+        circle_marker_f799906d687245809bcccab9155b7a12.bindPopup(popup_0ed8391a590abd5d05bb96f8ded7ce39)
+        ;
+
+        
+    
+    
+            var circle_marker_e1bd0148a225e98833a4d156b5b4651e = L.circleMarker(
+                [55.776462, 37.661961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0cfbf828841e6705bad45b65f31fd3f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a93c8e3e1f4c0dc1cb5ce4fb0e92c6a1 = $(`<div id="html_a93c8e3e1f4c0dc1cb5ce4fb0e92c6a1" style="width: 100.0%; height: 100.0%;">Лагерь принудработ № 1 при Московско-Казанской железной дороге (не позднее 5 июня 1920)<br>2-й Краснопрудный пер., 1 (сейчас - промзона у Давыдовско</div>`)[0];
+                popup_0cfbf828841e6705bad45b65f31fd3f3.setContent(html_a93c8e3e1f4c0dc1cb5ce4fb0e92c6a1);
+            
+        
+
+        circle_marker_e1bd0148a225e98833a4d156b5b4651e.bindPopup(popup_0cfbf828841e6705bad45b65f31fd3f3)
+        ;
+
+        
+    
+    
+            var circle_marker_bfa368125057ed90054d54df58f221e8 = L.circleMarker(
+                [55.772476, 37.572193],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_ee44fc7b6570fea5da1aa39bebd958c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59034a4cdcef1026e7551a6e569b38dc = $(`<div id="html_59034a4cdcef1026e7551a6e569b38dc" style="width: 100.0%; height: 100.0%;">Брестская центральная концентрационная больница (просуществовала до мая 1922)<br>улица Пресненский Вал, 29 (ранее - Камер-Коллежский вал)</div>`)[0];
+                popup_ee44fc7b6570fea5da1aa39bebd958c3.setContent(html_59034a4cdcef1026e7551a6e569b38dc);
+            
+        
+
+        circle_marker_bfa368125057ed90054d54df58f221e8.bindPopup(popup_ee44fc7b6570fea5da1aa39bebd958c3)
+        ;
+
+        
+    
+    
+            var circle_marker_45a0aed73ae7f444a2fbee8471efa42a = L.circleMarker(
+                [55.740562, 37.58743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_5c910a87a24d3eb16a9dcce5b03efaff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cdd10bc9633778fe44d5599c5db2f9f = $(`<div id="html_8cdd10bc9633778fe44d5599c5db2f9f" style="width: 100.0%; height: 100.0%;">Пречистенская тюремная психиатрическая больница<br>Кропоткинский переулок, 23</div>`)[0];
+                popup_5c910a87a24d3eb16a9dcce5b03efaff.setContent(html_8cdd10bc9633778fe44d5599c5db2f9f);
+            
+        
+
+        circle_marker_45a0aed73ae7f444a2fbee8471efa42a.bindPopup(popup_5c910a87a24d3eb16a9dcce5b03efaff)
+        ;
+
+        
+    
+    
+            var circle_marker_fca1ec498d3cc5a2610426e8a43d2bc8 = L.circleMarker(
+                [55.74255, 37.62554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_3d48ca72f71c68887bdb0fe6fb208e26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c47a72e8d01aa09eda77a952c6b66647 = $(`<div id="html_c47a72e8d01aa09eda77a952c6b66647" style="width: 100.0%; height: 100.0%;">Ордынский концлагерь (в т.ч. отделение Ивановского концетрационного лагеря; открыт в 1919 - нач.1920<br>улица Большая Ордынка, 17с25</div>`)[0];
+                popup_3d48ca72f71c68887bdb0fe6fb208e26.setContent(html_c47a72e8d01aa09eda77a952c6b66647);
+            
+        
+
+        circle_marker_fca1ec498d3cc5a2610426e8a43d2bc8.bindPopup(popup_3d48ca72f71c68887bdb0fe6fb208e26)
+        ;
+
+        
+    
+    
+            var circle_marker_c31f57218322ecb97622bf354400ce3a = L.circleMarker(
+                [55.853247, 37.597691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_758c2ebf8f2c304c8ccf6ad2af63f145 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27fcd6fe3f634f2dfa87a1df9be5106c = $(`<div id="html_27fcd6fe3f634f2dfa87a1df9be5106c" style="width: 100.0%; height: 100.0%;">Владыкинский концлагерь (открыт 18–19 ноября 1919)<br>около станции Владыкино Малого кольца Московской желе</div>`)[0];
+                popup_758c2ebf8f2c304c8ccf6ad2af63f145.setContent(html_27fcd6fe3f634f2dfa87a1df9be5106c);
+            
+        
+
+        circle_marker_c31f57218322ecb97622bf354400ce3a.bindPopup(popup_758c2ebf8f2c304c8ccf6ad2af63f145)
+        ;
+
+        
+    
+    
+            var circle_marker_68a97268cc36078989ec6521de21b6d3 = L.circleMarker(
+                [55.712942, 37.657456],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_64f0a3b3ee6b0c5306c00f560ae37945 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2311acc8577766b4467b38d4aa51bf74 = $(`<div id="html_2311acc8577766b4467b38d4aa51bf74" style="width: 100.0%; height: 100.0%;">Кожуховский концлагерь (открыт с 18 окт. 1919, с 1914 использовался для содержания военнопленных)<br>около станции Кожухово окружной ж/д</div>`)[0];
+                popup_64f0a3b3ee6b0c5306c00f560ae37945.setContent(html_2311acc8577766b4467b38d4aa51bf74);
+            
+        
+
+        circle_marker_68a97268cc36078989ec6521de21b6d3.bindPopup(popup_64f0a3b3ee6b0c5306c00f560ae37945)
+        ;
+
+        
+    
+    
+            var circle_marker_d735d223f6c012eb8766b85503b63714 = L.circleMarker(
+                [55.781395, 37.549085],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_16afd1a98880dc678807371399642c6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dc935e825da32f43897c5eaa87d1230 = $(`<div id="html_3dc935e825da32f43897c5eaa87d1230" style="width: 100.0%; height: 100.0%;">Ходынская тюремная больница, закрыта 30 мая 1922<br>Ходынский Хутор</div>`)[0];
+                popup_16afd1a98880dc678807371399642c6c.setContent(html_3dc935e825da32f43897c5eaa87d1230);
+            
+        
+
+        circle_marker_d735d223f6c012eb8766b85503b63714.bindPopup(popup_16afd1a98880dc678807371399642c6c)
+        ;
+
+        
+    
+    
+            var circle_marker_09ac4e2c1d9f6e6e4e127642e89a7c50 = L.circleMarker(
+                [55.750304, 37.57675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_5b7041ddbed94db566aac4ec3653ccfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0955b48e010c03be4c24fff137815593 = $(`<div id="html_0955b48e010c03be4c24fff137815593" style="width: 100.0%; height: 100.0%;">Новопесковский концлагерь (упоминается с 1 мая 1919) / Новопесковский распределитель с 22 сент. 1920<br>Новопесковский пер., 5, 6</div>`)[0];
+                popup_5b7041ddbed94db566aac4ec3653ccfe.setContent(html_0955b48e010c03be4c24fff137815593);
+            
+        
+
+        circle_marker_09ac4e2c1d9f6e6e4e127642e89a7c50.bindPopup(popup_5b7041ddbed94db566aac4ec3653ccfe)
+        ;
+
+        
+    
+    
+            var circle_marker_a80ef0918d6d4d499cebec7e6f56d3dd = L.circleMarker(
+                [55.7836, 37.59477],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_5aceb92a8df2a5f6f951fe8b89fcec06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70c5a9e378b0abdf19311ee9a86f6ecd = $(`<div id="html_70c5a9e378b0abdf19311ee9a86f6ecd" style="width: 100.0%; height: 100.0%;">Московская центральная больница мест заключения<br>Угол Лесной и Новослободской (на 1925)</div>`)[0];
+                popup_5aceb92a8df2a5f6f951fe8b89fcec06.setContent(html_70c5a9e378b0abdf19311ee9a86f6ecd);
+            
+        
+
+        circle_marker_a80ef0918d6d4d499cebec7e6f56d3dd.bindPopup(popup_5aceb92a8df2a5f6f951fe8b89fcec06)
+        ;
+
+        
+    
+    
+            var circle_marker_be396995d47e002406cc1e6999c23b9b = L.circleMarker(
+                [55.755484, 37.646498],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_3b11944119ec56639e11a348ced79dd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45a61d303732956dc78b78656cf50ac9 = $(`<div id="html_45a61d303732956dc78b78656cf50ac9" style="width: 100.0%; height: 100.0%;">Покровский концлагерь<br>Большой Трехсвятительский переулок, 3</div>`)[0];
+                popup_3b11944119ec56639e11a348ced79dd8.setContent(html_45a61d303732956dc78b78656cf50ac9);
+            
+        
+
+        circle_marker_be396995d47e002406cc1e6999c23b9b.bindPopup(popup_3b11944119ec56639e11a348ced79dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_0259ceabffe4cb2148121009e1adc43b = L.circleMarker(
+                [55.729477, 37.584791],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_c85a9c4ec97225cacc53e39c28dac723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_094c26e1681648d2f956c1d640e48947 = $(`<div id="html_094c26e1681648d2f956c1d640e48947" style="width: 100.0%; height: 100.0%;">Хамовнический полицейский дом<br>Фрунзенская</div>`)[0];
+                popup_c85a9c4ec97225cacc53e39c28dac723.setContent(html_094c26e1681648d2f956c1d640e48947);
+            
+        
+
+        circle_marker_0259ceabffe4cb2148121009e1adc43b.bindPopup(popup_c85a9c4ec97225cacc53e39c28dac723)
+        ;
+
+        
+    
+    
+            var circle_marker_7f85cda47594348d870886af9b3e2dbb = L.circleMarker(
+                [55.760873, 37.62796],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_1c6f2fa3b8334327f7b4de0441de9c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba90e2d8d60cd24b93aeb63cdeb63615 = $(`<div id="html_ba90e2d8d60cd24b93aeb63cdeb63615" style="width: 100.0%; height: 100.0%;">Лубянская внтуренная тюрьма<br>Большая Лубянка</div>`)[0];
+                popup_1c6f2fa3b8334327f7b4de0441de9c74.setContent(html_ba90e2d8d60cd24b93aeb63cdeb63615);
+            
+        
+
+        circle_marker_7f85cda47594348d870886af9b3e2dbb.bindPopup(popup_1c6f2fa3b8334327f7b4de0441de9c74)
+        ;
+
+        
+    
+    
+            var circle_marker_ead6ad3eeedd93257f19c4ba8a119359 = L.circleMarker(
+                [55.762403, 37.629393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_0c768df9af1a19c9adcb6d414bcc1ee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e670892f3ba4953909f99ea628cbe229 = $(`<div id="html_e670892f3ba4953909f99ea628cbe229" style="width: 100.0%; height: 100.0%;">Тюрьма московского областного управления НКВД<br>Большая Лубянка (14) или Малая Лубянка 13</div>`)[0];
+                popup_0c768df9af1a19c9adcb6d414bcc1ee2.setContent(html_e670892f3ba4953909f99ea628cbe229);
+            
+        
+
+        circle_marker_ead6ad3eeedd93257f19c4ba8a119359.bindPopup(popup_0c768df9af1a19c9adcb6d414bcc1ee2)
+        ;
+
+        
+    
+    
+            var circle_marker_7b905d49e5146e063e152837f747d0e4 = L.circleMarker(
+                [55.763531, 37.628408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_76efc585266a15958dab3180d80d1d46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21aed7e743a8935c118a8a93ef0537db = $(`<div id="html_21aed7e743a8935c118a8a93ef0537db" style="width: 100.0%; height: 100.0%;">Камеры заключения в первом здании ВЧК<br>Большая Лубянка 11</div>`)[0];
+                popup_76efc585266a15958dab3180d80d1d46.setContent(html_21aed7e743a8935c118a8a93ef0537db);
+            
+        
+
+        circle_marker_7b905d49e5146e063e152837f747d0e4.bindPopup(popup_76efc585266a15958dab3180d80d1d46)
+        ;
+
+        
+    
+    
+            var circle_marker_cd03f18050ab74dd8940e557cd7428af = L.circleMarker(
+                [55.776211, 37.580946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_efe7ed4ddc9134067d871595a02b629a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64368971c2eaa21ad8a9510080c6f1eb = $(`<div id="html_64368971c2eaa21ad8a9510080c6f1eb" style="width: 100.0%; height: 100.0%;">Белорусский вокзал<br>камеры заключения на белорусском вокзале</div>`)[0];
+                popup_efe7ed4ddc9134067d871595a02b629a.setContent(html_64368971c2eaa21ad8a9510080c6f1eb);
+            
+        
+
+        circle_marker_cd03f18050ab74dd8940e557cd7428af.bindPopup(popup_efe7ed4ddc9134067d871595a02b629a)
+        ;
+
+        
+    
+    
+            var circle_marker_cd53cfcccc885406f08989cc2b5c8432 = L.circleMarker(
+                [55.763525, 37.627426],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_25acea0a7c63253d1659ee9abd0794d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49c4a49702f92473908a46d720582a36 = $(`<div id="html_49c4a49702f92473908a46d720582a36" style="width: 100.0%; height: 100.0%;">Расстрельный двор в Варсонофьевском переулке (1918-1948)<br>Б. Лубянка, 11; Варсонофьевский пер., 7</div>`)[0];
+                popup_25acea0a7c63253d1659ee9abd0794d9.setContent(html_49c4a49702f92473908a46d720582a36);
+            
+        
+
+        circle_marker_cd53cfcccc885406f08989cc2b5c8432.bindPopup(popup_25acea0a7c63253d1659ee9abd0794d9)
+        ;
+
+        
+    
+    
+            var circle_marker_0536b6811a1ccb9b918f6f84d69374fb = L.circleMarker(
+                [55.794531, 37.554197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_57f27e4861e02077c1b684b368c0d151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d321f1c728c3e9e991e8d7156f32db = $(`<div id="html_d7d321f1c728c3e9e991e8d7156f32db" style="width: 100.0%; height: 100.0%;">Петровский парк (1918)<br>Ленинградский пр., 36/14</div>`)[0];
+                popup_57f27e4861e02077c1b684b368c0d151.setContent(html_d7d321f1c728c3e9e991e8d7156f32db);
+            
+        
+
+        circle_marker_0536b6811a1ccb9b918f6f84d69374fb.bindPopup(popup_57f27e4861e02077c1b684b368c0d151)
+        ;
+
+        
+    
+    
+            var circle_marker_d324b769cfe2f06cbf8ab31bfa0d9ca7 = L.circleMarker(
+                [55.784522, 37.594012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_d29486ea18379dd937ab7f98558bf208 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fee73834f1977cdb9de9d540b54acfcb = $(`<div id="html_fee73834f1977cdb9de9d540b54acfcb" style="width: 100.0%; height: 100.0%;">Бутырская тюрьма<br>Новослободская, 45</div>`)[0];
+                popup_d29486ea18379dd937ab7f98558bf208.setContent(html_fee73834f1977cdb9de9d540b54acfcb);
+            
+        
+
+        circle_marker_d324b769cfe2f06cbf8ab31bfa0d9ca7.bindPopup(popup_d29486ea18379dd937ab7f98558bf208)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0109248c3b6c7abfa464d1a1761824 = L.circleMarker(
+                [55.799585, 37.515154],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_59912af6a08be6adb56208096d5aafe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f25fc98555d976d9864ee422c236158f = $(`<div id="html_f25fc98555d976d9864ee422c236158f" style="width: 100.0%; height: 100.0%;">Братское кладбище (1917-1920)<br>Братское кладбище</div>`)[0];
+                popup_59912af6a08be6adb56208096d5aafe7.setContent(html_f25fc98555d976d9864ee422c236158f);
+            
+        
+
+        circle_marker_fd0109248c3b6c7abfa464d1a1761824.bindPopup(popup_59912af6a08be6adb56208096d5aafe7)
+        ;
+
+        
+    
+    
+            var circle_marker_3780f64e854f1dc81f892373b348e4cc = L.circleMarker(
+                [55.777807, 37.647127],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_3614054c9c16960d3a0d60efb9268495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_037553bb4e9cffb63474c3d31264de98 = $(`<div id="html_037553bb4e9cffb63474c3d31264de98" style="width: 100.0%; height: 100.0%;">Спецпомещение Мосгорсуда (c 1934 года)<br>Каланчёвская, 43</div>`)[0];
+                popup_3614054c9c16960d3a0d60efb9268495.setContent(html_037553bb4e9cffb63474c3d31264de98);
+            
+        
+
+        circle_marker_3780f64e854f1dc81f892373b348e4cc.bindPopup(popup_3614054c9c16960d3a0d60efb9268495)
+        ;
+
+        
+    
+    
+            var circle_marker_f39d063376e57110d65c674f32d04f23 = L.circleMarker(
+                [55.533188, 37.595518],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_85af112092deb5106ddd80b56e283e6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_912f3057d1ff7ec7c818024b781491ee = $(`<div id="html_912f3057d1ff7ec7c818024b781491ee" style="width: 100.0%; height: 100.0%;">Спецобъект "Бутовский полигон" (1934-1938)<br>Бутово, ул. Юбилейная, 2</div>`)[0];
+                popup_85af112092deb5106ddd80b56e283e6b.setContent(html_912f3057d1ff7ec7c818024b781491ee);
+            
+        
+
+        circle_marker_f39d063376e57110d65c674f32d04f23.bindPopup(popup_85af112092deb5106ddd80b56e283e6b)
+        ;
+
+        
+    
+    
+            var circle_marker_eda2c81a0e1163cc3949a9cd76fff8f9 = L.circleMarker(
+                [55.578548, 37.45557],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_a37fdfef3bbe7c6c8446377d81a04164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c800fafee4b01f210538b997693f77 = $(`<div id="html_66c800fafee4b01f210538b997693f77" style="width: 100.0%; height: 100.0%;">Спецобъект "Коммунарка" (1937-1941)<br>Москва, 24-й км Калужского шоссе</div>`)[0];
+                popup_a37fdfef3bbe7c6c8446377d81a04164.setContent(html_66c800fafee4b01f210538b997693f77);
+            
+        
+
+        circle_marker_eda2c81a0e1163cc3949a9cd76fff8f9.bindPopup(popup_a37fdfef3bbe7c6c8446377d81a04164)
+        ;
+
+        
+    
+    
+            var circle_marker_90b5187ce4c86ff31f73629c877c5266 = L.circleMarker(
+                [55.533188, 37.595518],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_d86df191fd04ad069169bd90e4477b9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_456ec2c3a44051ce86e68bc6508dedda = $(`<div id="html_456ec2c3a44051ce86e68bc6508dedda" style="width: 100.0%; height: 100.0%;">Спецобъект "Бутовский полигон" (1934-1938<br>Бутово, ул. Юбилейная, 2</div>`)[0];
+                popup_d86df191fd04ad069169bd90e4477b9f.setContent(html_456ec2c3a44051ce86e68bc6508dedda);
+            
+        
+
+        circle_marker_90b5187ce4c86ff31f73629c877c5266.bindPopup(popup_d86df191fd04ad069169bd90e4477b9f)
+        ;
+
+        
+    
+    
+            var circle_marker_bf1df4e9e4dd102d198682d9a991d8ad = L.circleMarker(
+                [55.578548, 37.45557],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_3fc3d468cc40625bf9dd6551211fd6c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a00eaf0b1a15c739c78a2c1371d287dd = $(`<div id="html_a00eaf0b1a15c739c78a2c1371d287dd" style="width: 100.0%; height: 100.0%;">Спецобъект "Коммунарка" (1937-1941)<br>Москва, 24-й км Калужского шоссе</div>`)[0];
+                popup_3fc3d468cc40625bf9dd6551211fd6c0.setContent(html_a00eaf0b1a15c739c78a2c1371d287dd);
+            
+        
+
+        circle_marker_bf1df4e9e4dd102d198682d9a991d8ad.bindPopup(popup_3fc3d468cc40625bf9dd6551211fd6c0)
+        ;
+
+        
+    
+    
+            var circle_marker_d3cf963499fbd6eaae131218fe9dc088 = L.circleMarker(
+                [55.732087, 37.69105],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_9e88fc72a123724c7030c521c3f91da9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_222465db427cae1dc8d3268d9c1c6e46 = $(`<div id="html_222465db427cae1dc8d3268d9c1c6e46" style="width: 100.0%; height: 100.0%;">Калитниковское кладбище (1926-1935)<br>Б. Калитниковский пр-д, 11</div>`)[0];
+                popup_9e88fc72a123724c7030c521c3f91da9.setContent(html_222465db427cae1dc8d3268d9c1c6e46);
+            
+        
+
+        circle_marker_d3cf963499fbd6eaae131218fe9dc088.bindPopup(popup_9e88fc72a123724c7030c521c3f91da9)
+        ;
+
+        
+    
+    
+            var circle_marker_3680aed7d2f2808aa78fdcb513b8586a = L.circleMarker(
+                [55.768298, 37.548924],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_d5281b3810f4a1bff051bb66a5a74653 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6d55aee94437222e65a2e485abb04c4 = $(`<div id="html_c6d55aee94437222e65a2e485abb04c4" style="width: 100.0%; height: 100.0%;">Ваганьковское кладбище (1926-1935)<br>С. Макеева, 15</div>`)[0];
+                popup_d5281b3810f4a1bff051bb66a5a74653.setContent(html_c6d55aee94437222e65a2e485abb04c4);
+            
+        
+
+        circle_marker_3680aed7d2f2808aa78fdcb513b8586a.bindPopup(popup_d5281b3810f4a1bff051bb66a5a74653)
+        ;
+
+        
+    
+    
+            var circle_marker_6e94e6fe9db63975f658bd70da5273bb = L.circleMarker(
+                [55.712119, 37.602945],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_c0971576f4bd298cfd2cea4f2cb0beb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b02e3c90f2706e519eea59664959c300 = $(`<div id="html_b02e3c90f2706e519eea59664959c300" style="width: 100.0%; height: 100.0%;">Донское кладбище (1930-е)<br>Донская пл., 1</div>`)[0];
+                popup_c0971576f4bd298cfd2cea4f2cb0beb2.setContent(html_b02e3c90f2706e519eea59664959c300);
+            
+        
+
+        circle_marker_6e94e6fe9db63975f658bd70da5273bb.bindPopup(popup_c0971576f4bd298cfd2cea4f2cb0beb2)
+        ;
+
+        
+    
+    
+            var circle_marker_b6f107a11ddf25220bfe064cfca37450 = L.circleMarker(
+                [55.799585, 37.515154],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_5ed97855d4a5876612e8d4b068a5009b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7b6184900927d22d0dd41624d85fa27 = $(`<div id="html_d7b6184900927d22d0dd41624d85fa27" style="width: 100.0%; height: 100.0%;">Братское кладбище (1917-1920)<br>Новопесчанная 12</div>`)[0];
+                popup_5ed97855d4a5876612e8d4b068a5009b.setContent(html_d7b6184900927d22d0dd41624d85fa27);
+            
+        
+
+        circle_marker_b6f107a11ddf25220bfe064cfca37450.bindPopup(popup_5ed97855d4a5876612e8d4b068a5009b)
+        ;
+
+        
+    
+    
+            var circle_marker_9ba19abeec78a24efaa5df19eeec638c = L.circleMarker(
+                [55.746934, 37.649169],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+    
+        var popup_9122b58d0a8d321a1ac515044a19bfe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_837ecf8ebf47c466b083e5840305f894 = $(`<div id="html_837ecf8ebf47c466b083e5840305f894" style="width: 100.0%; height: 100.0%;">Яузская больница (1921-1926, 1930-е)<br>Яузская ул, 11</div>`)[0];
+                popup_9122b58d0a8d321a1ac515044a19bfe7.setContent(html_837ecf8ebf47c466b083e5840305f894);
+            
+        
+
+        circle_marker_9ba19abeec78a24efaa5df19eeec638c.bindPopup(popup_9122b58d0a8d321a1ac515044a19bfe7)
+        ;
+
+        
+    
+    
+            tile_layer_7694e7f6eb1cb141b70a65cd92dc01f2.addTo(map_fe690c7deb2d6682cf0f13deaa60b96f);
+        
+</script>
+</html>

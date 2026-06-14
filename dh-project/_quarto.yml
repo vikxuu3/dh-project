@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Какие жанры Netflix преобладают в разных странах"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Главная
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    lang: ru
+
